@@ -33,7 +33,7 @@ export default withMermaid({
   },
 
   title: 'Calagopus',
-  description: 'Game server management - made simple',
+  description: 'Game server management - reimagined.',
   head: [
     [
       'link',
@@ -93,6 +93,11 @@ export default withMermaid({
               { text: 'Binary', link: '/docs/wings/installation/binary' },
               { text: 'Package Manager', link: '/docs/wings/installation/pkgmanager' },
             ],
+          },
+          {
+            text: 'Disk Limiters',
+            link: '/docs/wings/disk-limiters',
+            items: [{ text: 'Fusequota', link: '/docs/wings/disk-limiters/fusequota' }],
           },
         ],
       },
