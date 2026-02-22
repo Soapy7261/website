@@ -20,6 +20,8 @@ Slow down there! This is not something you should use without knowing the downsi
 
 Well, it highly depends. Do only you and some friends use you panel? Fusequota is not worth the hassle and speed decrease.
 
+Do you have literally any other native quota system available? Then dont use fusequota, the native quota systems are much more efficient and stable than fusequota, and they do not have the same downsides.
+
 Do you host free servers? Then it might be worth it, as you can have a lot of malicious users that try to fill up the disk, and it's better to have a slow server than no server at all.
 
 Do you host high-performance servers? Then it might not be worth it, as the performance decrease might be too much for your users. But it **depends**! Do not make decisions purely on this guide, do your testing and due diligence before making a decision. If you are unsure, you can always ask for help in our [Discord](https://discord.gg/uSM8tvTxBV), we are happy to help you make the best decision for your use case!

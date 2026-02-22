@@ -22,7 +22,7 @@ features:
     details: With Rust's high performance and low-level control, Calagopus delivers fast and efficient game server management, ensuring smooth gameplay and responsive server administration. Our binaries are compiled to be as small and efficient as possible, and we utilize caching and other optimization techniques to ensure the best performance possible.
   - icon: 🧩
     title: Modularity
-    details: Calagopus is designed to be modular and extensible, allowing developers to create custom extensions to enhance its functionality. The Extensoin API uses Rust Traits to allow for maximum flexibility and performance, and we provide comprehensive documentation and support to help developers get started with creating their own extensions.
+    details: Calagopus is designed to be modular and extensible, allowing developers to create custom extensions to enhance its functionality. The Extension API uses Rust Traits to allow for maximum flexibility and performance, and we provide comprehensive documentation and support to help developers get started with creating their own extensions.
     link: /docs/panel/extensions/dev-environment
   - icon: 🌐
     title: Open Source
