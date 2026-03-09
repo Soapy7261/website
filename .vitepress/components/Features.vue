@@ -15,7 +15,7 @@ const features = [
     icon: faLock,
     title: 'Security',
     details:
-      "Calagopus is built with security in mind, utilizing Rust's safety features to minimize vulnerabilities and protect your game servers from potential threats. Containers run in isolated Docker Containers, and the panel itself is designed to follow best practices for secure web applications.",
+      "Calagopus is built with security in mind, utilizing Rust's safety features to minimize vulnerabilities and protect your game servers from potential threats. Servers run in isolated Docker Containers, and the panel itself is designed to follow best practices for secure web applications.",
   },
   {
     icon: faBolt,
