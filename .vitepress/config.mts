@@ -91,7 +91,17 @@ export default withMermaid({
             link: '/docs/panel/installation',
             items: [
               { text: 'Docker', link: '/docs/panel/installation/docker' },
+              { text: 'Binary', link: '/docs/panel/installation/binary' },
               { text: 'Package Manager', link: '/docs/panel/installation/pkgmanager' },
+            ],
+          },
+          { text: 'Updating', link: '/docs/panel/updating' },
+          {
+            text: 'Next Steps',
+            link: '/docs/panel/next-steps',
+            items: [
+              { text: 'Creating a New Node', link: '/docs/panel/next-steps/add-node' },
+              { text: 'Adding egg repositories', link: '/docs/panel/next-steps/egg-repos' },
             ],
           },
           {
@@ -115,6 +125,7 @@ export default withMermaid({
               { text: 'Package Manager', link: '/docs/wings/installation/pkgmanager' },
             ],
           },
+          { text: 'Updating', link: '/docs/wings/updating' },
           {
             text: 'Disk Limiters',
             link: '/docs/wings/disk-limiters',
@@ -125,7 +136,14 @@ export default withMermaid({
       {
         text: 'Advanced',
         items: [
-          { text: 'Migrating from Pterodactyl', link: '/docs/advanced/migrating-from-pterodactyl' },
+          {
+            text: 'Migrating from Pterodactyl',
+            link: '/docs/advanced/migrating-from-pterodactyl',
+            items: [
+              { text: 'Standalone', link: '/docs/advanced/migrating/standalone' },
+              { text: 'Dockerized', link: '/docs/advanced/migrating/dockerized' },
+            ],
+          },
           { text: 'Reverse Proxies', link: '/docs/advanced/reverse-proxies' },
           {
             text: 'Setting up OAuth',
