@@ -128,7 +128,10 @@ export default withMermaid({
               { text: 'Extension File Structure', link: '/docs/panel/extensions/file-structure' },
               {
                 text: 'Concepts',
-                items: [{ text: 'Events', link: '/docs/panel/extensions/concepts/events' }],
+                items: [
+                  { text: 'Events', link: '/docs/panel/extensions/concepts/events' },
+                  { text: 'Settings', link: '/docs/panel/extensions/concepts/settings' },
+                ],
               },
             ],
           },
