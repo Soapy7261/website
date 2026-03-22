@@ -107,6 +107,7 @@ export default withMermaid({
           {
             text: 'Extensions',
             items: [
+              { text: 'Installing Extensions', link: '/docs/panel/extensions/installing-extensions' },
               { text: 'Development Environment', link: '/docs/panel/extensions/dev-environment' },
               { text: 'Extension File Structure', link: '/docs/panel/extensions/file-structure' },
             ],
