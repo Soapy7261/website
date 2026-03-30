@@ -58,10 +58,10 @@ pnpm build
 cd ..
 
 # migrate database
-cargo run -p database-migrator -- migrate
+SQLX_OFFLINE=true cargo run -p database-migrator -- migrate
 
 # build & run backend
-cargo run
+SQLX_OFFLINE=true cargo run
 ```
 
 This will compile the frontend and backend components of the Calagopus Panel.

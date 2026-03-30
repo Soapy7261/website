@@ -6,7 +6,7 @@ Okay great, how do we get started? Well, initialize an extension first, what did
 
 ## Defining Settings
 
-Okay joking aside, fist off, create a `settings.rs` file in your extension src directory, this file will contain the code for your settings struct and ser/deser logic.
+Okay joking aside, first off, create a `settings.rs` file in your extension src directory, this file will contain the code for your settings struct and ser/deser logic.
 
 ```rs
 use compact_str::ToCompactString;
@@ -173,8 +173,8 @@ impl Extension for ExtensionStruct {
 
         let write_settings = async || -> Result<(), anyhow::Error> {
             let mut settings = state.settings.get_mut().await?;
-            let ext_settings =
-                settings.find_mut_extension_settings::<settings::ExtensionSettingsData>()?;
+            let ext_settings: &mut settings::ExtensionSettingsData =
+                settings.find_mut_extension_settings()?;
 
             ext_settings.api_key = "my_secret_api_key".into();
             ext_settings.collect_secret_government_telemetry = true;
