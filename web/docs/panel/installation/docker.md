@@ -58,7 +58,7 @@ curl -o compose.yml https://raw.githubusercontent.com/calagopus/panel/refs/heads
 ls -lh # should show you the compose.yml file
 ```
 
-```bash [Heavy Image (Support for Extensions)]
+```bash [Heavy Image for Support for Extensions]
 mkdir calagopus-panel
 cd calagopus-panel
 
