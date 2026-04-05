@@ -30,11 +30,11 @@ Do you host high-performance servers? Then it might not be worth it, as the perf
 
 Using Fusequota is relatively straightforward, it does not require any additional software or similar.
 
-To use Fusequota, simply set the `disk_limiter_mode` option in your wings configuration to `fusequota`:
+To use Fusequota, simply set the `disk_limiter_mode` option in your wings configuration to `fuse_quota`:
 
 ```yaml
 system:
-  disk_limiter_mode: fusequota
+  disk_limiter_mode: fuse_quota
 ```
 
 Then, simply restart wings and fusequota will be used when a server restarts.
