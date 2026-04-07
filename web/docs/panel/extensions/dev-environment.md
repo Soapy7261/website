@@ -11,6 +11,8 @@ Before you begin, ensure you have the following installed on your machine:
 - Rust (latest stable version)
 - A code editor (e.g., Visual Studio Code)
 - Git (any reasonable version)
+- A PostgreSQL server (version 16 or higher) for the database
+- A Redis server (version 7 or higher) for caching
 
 ## Step 1: Clone the Repository
 
