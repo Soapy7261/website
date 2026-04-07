@@ -141,10 +141,12 @@ export default withMermaid({
         text: 'Wings',
         items: [
           { text: 'Overview', link: '/docs/wings/overview' },
+          { text: 'Configuration', link: '/docs/wings/configuration' },
           {
             text: 'Installation',
             link: '/docs/wings/installation',
             items: [
+              { text: 'Docker', link: '/docs/wings/installation/docker' },
               { text: 'Binary', link: '/docs/wings/installation/binary' },
               { text: 'Package Manager', link: '/docs/wings/installation/pkgmanager' },
             ],
@@ -169,6 +171,7 @@ export default withMermaid({
             ],
           },
           { text: 'Reverse Proxies', link: '/docs/advanced/reverse-proxies' },
+          { text: 'Generating SSL Certificates', link: '/docs/advanced/generate-ssl' },
           {
             text: 'Setting up OAuth',
             link: '/docs/advanced/oauth',

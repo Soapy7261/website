@@ -83,9 +83,4 @@ If your system does not publicly expose your web server on the internet, you can
 
 This guide assumes you are using Cloudflare's DNS to manage your domain, but you can always refer to [acme.sh's](https://github.com/acmesh-official/acme.sh/wiki/dnsapi) documentation for other DNS providers.
 
-First, install `acme.sh` by running the command below:
-```bash
-curl https://get.acme.sh | sh
-```
-
-Then, we will create an API key for 
+THIS GUIDE IS TODO!!!

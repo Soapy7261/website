@@ -5,6 +5,8 @@ Please see the [Minimum Requirements](./overview.md#minimum-requirements) sectio
 ## Getting Started
 
 ::::tabs
+=== On Linux with Docker
+Please see the [Docker Wings Installation](./installation/docker.md) documentation in the Installation part of the documentation.
 === On Linux Bare-Metal (Binary)
 Please see the [Binary Wings Installation](./installation/binary.md) documentation in the Installation part of the documentation.
 === On Linux with APT/RPM

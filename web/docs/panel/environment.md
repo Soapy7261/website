@@ -115,7 +115,7 @@ APP_DEBUG=false
 
 ## APP_ENABLE_WINGS_PROXY
 
-The `APP_ENABLE_WINGS_PROXY` variable determines whether the Panel should enable the Wings Proxy feature. This feature allows the Panel to act as a proxy for communication between the Panel and Wings, which can be useful in certain deployment scenarios (Especially when simplifying homelabs). The downside being that the panel has to handle all traffic between users and wings which can lead to performance issues in high-traffic environments. In a production environment, it is generally recommended to set this variable to `false` and use a direct connection between the Panel and Wings.
+The `APP_ENABLE_WINGS_PROXY` variable determines whether the Panel should enable the Wings Proxy feature. This feature allows the Panel to act as a proxy for communication between the Panel and Wings, which can be useful in certain deployment scenarios (Especially when simplifying homelabs). The downside being that the panel has to handle all traffic between users and wings which can lead to performance issues in high-traffic environments. In a production environment, it is generally recommended to set this variable to `false` and use a direct connection between the User and Wings.
 
 Default value:
 
