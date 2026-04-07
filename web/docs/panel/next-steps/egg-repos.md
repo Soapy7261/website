@@ -1,6 +1,11 @@
 # Adding egg repositories
 Egg repositories is like the Blueprint extension [Eggify](https://builtbybit.com/resources/eggify-mass-egg-importer-updater.52525/), but integrated into Calagopus Panel. It allows you to install eggs from a Git repository by scraping all the available eggs and making them available in a page for you to download.
 
+::: info
+You can now add egg repositories directly from the OOBE when setting up Calagopus Panel, all you have to do is select the egg repositories you would like to import, then click on the Import button.
+![](./images/egg-repos/oobe.png)
+:::
+
 ## How do egg repositories work?
 An egg repository works by storing lots of eggs on a Git repository. They are often organized by seperating games, softwares, programming languages, etc. into their own Git repository.
 
@@ -35,7 +40,8 @@ You should now see a little green callout saying that the egg repository is sync
 
 ## Importing the eggs
 ::: warning
-It is currently not possible to import all eggs at once. This may be implemented into a later version of Calagopus.
+It is currently not possible to import all eggs at once. However, you can import the eggs by dragging them and clicking on the `Install` button below.
+![alt text](./images/egg-repos/drag.png)
 :::
 
 Click on the Eggs tab, and you should be redirected to a page like this:
@@ -50,3 +56,40 @@ You should now be brought to a popup to select which nest would you like to impo
 ![](./images/egg-repos/install.png)
 
 And you're done! You can now create a server with the egg(s) you imported! If you want to import multiple eggs, just select them, and then click on the Install button below.
+
+## Updating the eggs
+In case an egg has been updated, you can follow this guide to update the egg imported via the repository. You must first resync the egg repository.
+
+To do so, head into the Egg Repositories tab in the admin panel and click on the egg repository you want to update.
+![](./images/egg-repos/updating-eggrepo.png)
+
+Then, simply click on the `Sync` button to sync the updated eggs to the list.
+![](./images/egg-repos/sync.png)
+
+To update an egg, first head to the Nests tab and click on the nest where your egg is located at.
+![](./images/egg-repos/nest-update.png)
+
+Then, click on the egg you want to update.
+![](./images/egg-repos/egg-update.png)
+
+Once in the egg settings, scroll down until you see the Update button, then the `from Repository` button.
+![](./images/egg-repos/update.png)
+
+The egg should now be updated from the repository. Keep in mind you may need to update your servers according to the changes done.
+
+## Mass-updating the eggs
+In case you want to update multiple eggs, you can follow this guide to update the eggs imported via the repository. You must first resync the egg repository.
+
+To do so, head into the Egg Repositories tab in the admin panel and click on the egg repository you want to update.
+![](./images/egg-repos/updating-eggrepo.png)
+
+Then, simply click on the `Sync` button to sync the updated eggs to the list.
+![](./images/egg-repos/sync.png)
+
+To update an egg, first head to the Nests tab and click on the nest where your eggs is located at.
+![](./images/egg-repos/nest-update.png)
+
+Then, select the eggs you want to update, by either dragging it or searching for them manually, and then click on the `Update from Repository` button at the action bar.
+![](./images/egg-repos/massupdate.png)
+
+The selected eggs should now be updated from the repository. Keep in mind you may need to update your servers according to the changes done.
