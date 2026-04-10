@@ -52,7 +52,9 @@ Let's compare Calagopus with some of the most popular server management panels o
 | User Impersonation | ✅ | ❌ | ❌ | ❌ |
 | Support for multiple Nodes | ✅ | ✅ | ✅ | ✅ |
 | Egg Repository System | ✅ | ❌ | ❌ | ❌ |
-| Postgres Database Support | ✅ | ❌ | ✅ | ❌ |
+| MySQL Server-Database Support | ✅ | ✅ | ✅ | ❌ |
+| Postgres Server-Database Support | ✅ | ❌ | ❌ | ❌ |
+| MongoDB Server-Database Support | ✅ | ❌ | ❌ | ❌ |
 | Dynamic Backup Configuration System | ✅ | ❌ | ❌ | ❌ |
 | Mount Management | ✅ | ✅ | ✅ | ✅ |
 | Role Management | ✅ | ❌ | ✅ | ✅ |

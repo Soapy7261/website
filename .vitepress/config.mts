@@ -174,6 +174,15 @@ export default withMermaid({
           { text: 'Exposing Wings in a Homelab', link: '/docs/advanced/exposing-wings-in-a-homelab' },
           { text: 'Generating SSL Certificates', link: '/docs/advanced/generate-ssl' },
           {
+            text: 'Setting up Database Hosts',
+            link: '/docs/advanced/setting-up-database-hosts',
+            items: [
+              { text: 'MySQL (MariaDB)', link: '/docs/advanced/setting-up-database-hosts/mysql' },
+              { text: 'PostgreSQL', link: '/docs/advanced/setting-up-database-hosts/postgres' },
+              { text: 'MongoDB', link: '/docs/advanced/setting-up-database-hosts/mongodb' },
+            ],
+          },
+          {
             text: 'Setting up OAuth',
             link: '/docs/advanced/oauth',
             items: [
